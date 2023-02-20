@@ -21,6 +21,9 @@
 本插件是一个可运行在 OpenWrt 上的<a href="https://github.com/Dreamacro/clash" target="_blank"> Clash </a>客户端
 </p>
 <p align="center">
+与上游相比去除了所有外部请求（ip测验与开发者头像），即打开管理页面不会导致浏览器对路由器之外的任何站点发起请求
+</p>
+<p align="center">
 兼容 Shadowsocks、ShadowsocksR、Vmess、Trojan、Snell 等协议，根据灵活的规则配置实现策略代理
 </p>
 <p align="center">
